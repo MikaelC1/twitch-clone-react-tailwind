@@ -193,7 +193,7 @@ export default function Content(){
             <div className="flex w-full flex-col gap-7">
                 <h1 className="text-6xl font-bold">Explorar</h1>
                 
-                <div className="grid gap-2 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+                <div className="grid gap-3 grid-cols-[repeat(auto-fit,minmax(190px,1fr))]">
                 {
                     explore.map((explore) => {
                         return(

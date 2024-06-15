@@ -13,7 +13,7 @@ export default function Card({ img, category, viewCount, labels = [] }){
                 {
                     labels.map((label, index) => {
                         return (
-                                <button key={`label-${index}`} className="bg-gray-700 text-white text-xs py-1 px-2 rounded-md hover:bg-gray-800">{label}</button>
+                                <button key={`label-${index}`} className="bg-gray-700 text-white text-xs py-1 px-2 rounded-md hover:bg-gray-00">{label}</button>
                         )
                     })
                 }
