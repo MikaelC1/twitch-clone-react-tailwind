@@ -6,7 +6,8 @@ const recomended = [
         profilePic: "Peanut",
         user: "midudev",
         videogame: "IRL",
-        views: "132.1K "
+        views: "132.1K ",
+        active: true
     },
     {
         profilePic: "random",
@@ -30,13 +31,15 @@ const recomended = [
         profilePic: "MikaelC2",
         user: "El Pepe",
         videogame: "Valorant",
-        views: "132.1K "
+        views: "132.1K ",
+        active: true
     },
     {
         profilePic: "MikaelC1",
         user: "Aiudaaaaa",
         videogame: "Valorant",
-        views: "132.1K "
+        views: "132.1K ",
+        active: true
     },
 ]
 
@@ -61,6 +64,7 @@ export default function Aside(){
                         videogame={info.videogame}
                         views={info.views}
                         profilePic={info.profilePic}
+                        active={info.active}
                     />
                     )
                 })

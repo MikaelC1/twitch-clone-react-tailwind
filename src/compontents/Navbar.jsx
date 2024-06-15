@@ -10,7 +10,7 @@ export default function Navbar(){
     return (
         <nav className=" w-full col-start-1 col-end-3 grid grid-cols-2 lg:grid-cols-3 px-3 bg-[#18181B] border-b-2 border-neutral-900"> 
             <div className="flex gap-10 items-center">
-                <img src={logo} alt="" className="w-6"/>
+                <img src={logo} alt="TwitchLogo" className="w-6"/>
                 <img src={copy} alt="" className="w-6 lg:hidden"/>
                 <a href=""><span className="hidden lg:block font-semibold text-xl text-[#BF94FF] border-b-2 border-[#BF94FF] pb-2">Explorar</span></a>
                 <img src={dots} alt="" className="w-6 hover:bg-[#2c2c2c] cursor-pointer rounded py-1"/>
